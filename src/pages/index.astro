@@ -1,6 +1,10 @@
 ---
 import '../styles/global.css';
+
+import Navigation from '../components/Navigation.astro';
+
 const siteName = "Joey's Digital Garden";
+
 
 ---
 
@@ -15,11 +19,8 @@ const siteName = "Joey's Digital Garden";
 	<body>
 		<h1>{siteName}</h1>
 
-		<ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="portfolio">Portfolio</a></li>
-			<li><a href="about">About</a></li>
-        </ul>
+		
+<Navigation />
 
 		<p>
 			Welcome to my digital garden! This is a collection of notes, thoughts, and
