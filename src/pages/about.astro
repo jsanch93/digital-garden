@@ -1,33 +1,20 @@
 ---
-import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
-const siteName = "About the Creator";
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "About the Creator";
 
 const skills = ['project', 'first', 'html', 'css', 'javascript', 'soccer']
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>About</title>
-	</head>
-	<body>
-		<h1>About</h1>
+<BaseLayout pageTitle={pageTitle}>
+	<h2>My awesome blog subtitle</h2>
+	<p>
+		This is my about me! You will learn so much from me and I won't learn anything from you cause YOU ARE A WEBSITE!
+		</p>
 
-		<Navigation />
-
-		<p>
-			This is my about me! You will learn so much from me and I won't learn anything from you cause YOU ARE A WEBSITE!
-			</p>
-
-			<ul>
-				{skills.map( (skill) => (
-					<li>{skill}</li>
-				))}
-			</ul>
-
-	</body>
-</html>
+		<ul>
+			{skills.map( (skill) => (
+				<li>{skill}</li>
+			))}
+		</ul>
+  
+  </BaseLayout>
