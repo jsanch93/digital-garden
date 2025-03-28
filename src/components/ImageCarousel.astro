@@ -1,0 +1,21 @@
+---
+import "../styles/carousel.css";
+--- 
+
+<!-- image-carousel.astro -->
+  <body>
+    <div class="carousel">
+      <div class="carousel-track">
+        <img src="public/assets/DigiKitty/digi_landing.png" class="carousel-image" />
+        <img src="/images/img2.jpg" class="carousel-image" />
+        <img src="/images/img3.jpg" class="carousel-image" />
+      </div>
+      <button class="carousel-button prev">‹</button>
+      <button class="carousel-button next">›</button>
+    </div>
+
+    <script>
+      import "../scripts/carousel.js";
+    </script>
+  </body>
+</html>

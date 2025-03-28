@@ -1,12 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BlogPost from '../components/BlogPost.astro';
+import ImageCarousel from '../components/ImageCarousel.astro';
 import "../styles/portfolio.css";
 const allPosts = await Astro.glob('../pages/posts/*.md');
 const pageTitle = "My Portfolio";
 ---
 <BaseLayout pageTitle={pageTitle}>
 	<h2>My awesome blog subtitle</h2>
+	<ImageCarousel />
 	<ul>
 		{allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
 	  </ul>

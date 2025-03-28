@@ -1,0 +1,40 @@
+/* carousel.css */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    flex-shrink: 0;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 1;
+  }
+  
+  .carousel-button.prev {
+    left: 10px;
+  }
+  
+  .carousel-button.next {
+    right: 10px;
+  }
+  
