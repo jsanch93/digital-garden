@@ -1,6 +1,6 @@
 --- 
 layout: ../../layouts/ProjectLayout.astro
-title: 'Project 1'
+title: 'DigiKitty'
 pubDate: 2024-05-19
 author: 'Joey Sanchirico'
 image: [
