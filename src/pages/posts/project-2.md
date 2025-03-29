@@ -1,5 +1,5 @@
 --- 
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../layouts/ProjectLayout.astro
 title: 'Project 2'
 pubDate: 2024-05-19
 description: 'This is the first post of my new Astro blog.'
