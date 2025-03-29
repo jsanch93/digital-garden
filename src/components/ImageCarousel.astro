@@ -1,8 +1,9 @@
 ---
 import "../styles/carousel.css";
+const { images = [] } = Astro.props;
 --- 
 
-<!-- image-carousel.astro -->
+<!-- image-carousel.astro
   <body>
     <div class="carousel">
       <div class="carousel-track">
@@ -17,5 +18,18 @@ import "../styles/carousel.css";
     <script>
       import "../scripts/carousel.js";
     </script>
-  </body>
-</html>
+  </body> -->
+
+
+<div class="carousel">
+  <div class="carousel-track">
+    {images.map(src => (
+      <img src={src} class="carousel-image" />
+    ))}
+  </div>
+  <button class="carousel-button prev">‹</button>
+  <button class="carousel-button next">›</button>
+</div>
+<script>
+  import "../scripts/carousel.js";
+</script>
