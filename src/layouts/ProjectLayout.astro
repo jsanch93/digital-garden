@@ -1,10 +1,35 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import "../styles/carousel.css";
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
   <p>{frontmatter.pubDate.toString().slice(0,10)}</p>
   <p><em>{frontmatter.description}</em></p>
   <p>Written by: {frontmatter.author}</p>
+
+  <div class="carousel">
+    <div class="carousel-inner">
+            {(() => {
+        const elements = [];
+        for (let index = 0; index < frontmatter.image.length; index++) {
+          const image = frontmatter.image[index];
+          elements.push(
+            <picture>
+              <div class={`carousel-item ${index === 0 ? 'active' : ''}`}>
+                <img src={`/assets/${image}`} alt={`Slide ${index + 1}`} />
+              </div>
+            </picture>
+          );
+        }
+        return elements;
+      })()}
+      
+    </div>
+    <button class="carousel-control-prev" onclick="prevSlide()">&#10094;</button>
+    <button class="carousel-control-next" onclick="nextSlide()">&#10095;</button>
+  </div>
   <slot />
+
+  <script src="../scripts/carousel.js"></script>
 </BaseLayout>
