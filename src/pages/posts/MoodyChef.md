@@ -1,6 +1,6 @@
 --- 
 layout: ../../layouts/ProjectLayout.astro
-title: 'Project 3'
+title: 'Moody Chef'
 pubDate: 2024-05-19
 description: 'This is the first post of my new Astro blog.'
 author: 'Joey Sanchirico'
