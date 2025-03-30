@@ -1,7 +1,10 @@
 body {
-    background: lightsalmon;
+    background: #75ACAD;
 }
 
+header {
+  text-align: center;
+}
 
 /* nav styles */
 .hamburger {
@@ -21,7 +24,7 @@ body {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #0e1e7c;
+    background-color: #F5D048;
     display: none;
     margin: 0;
   }
@@ -37,7 +40,8 @@ body {
   }
   
   .nav-links a:hover, a:focus {
-    background-color: #ff9776;
+    background-color: #F5D048;
+    border-radius: 10px;
   }
   
   .expanded {
@@ -46,7 +50,7 @@ body {
 
 
   html.dark {
-    background-color: #0d0950;
+    background-color: #F5D048;
     color: #fff;
   }
   
