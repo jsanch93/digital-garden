@@ -1,9 +1,17 @@
+@import url('telma.css');
+
 body {
     background: #75ACAD;
 }
 
 header {
   text-align: center;
+}
+
+
+.myName {
+  font-family: 'Telma-Bold';
+  font-size: 3.5rem;
 }
 
 /* nav styles */
