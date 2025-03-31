@@ -8,6 +8,21 @@ header {
   text-align: center;
 }
 
+p {
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  max-width: 600px;
+  color: #0e1e7c;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Full viewport height */
+  text-align: center; /* Center text horizontally */
+}
 
 .myName {
   font-family: 'Telma-Bold';
