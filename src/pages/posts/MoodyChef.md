@@ -2,7 +2,7 @@
 layout: ../../layouts/ProjectLayout.astro
 title: 'Moody Chef'
 pubDate: 2024-05-19
-description: 'This is the first post of my new Astro blog.'
+description: 'Passion project to create a recipe app that helps users find recipes based on their mood.'
 author: 'Joey Sanchirico'
 image: [
 '/MoodyChef/Chef_mood.png',
@@ -15,4 +15,4 @@ image: [
 ]
 ---
 
-## This is my third project 
+## Moody Chef

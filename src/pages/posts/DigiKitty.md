@@ -11,4 +11,4 @@ image: [
 ]
 ---
 
-## This is my first project 
+## DigiKitty

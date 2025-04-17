@@ -1,7 +1,7 @@
 @import url('telma.css');
 
 body {
-    background: #75ACAD;
+    background: #7DA688;
 }
 
 header {
@@ -29,9 +29,22 @@ p {
   font-size: 3.5rem;
 }
 
-
+img {
+  max-width: 100px;
+  max-height: 100px;
+  height: auto;
+  border-radius: 10px;
+}
 
 /* nav styles */
+
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0e1e7c;
+  }
+
 .hamburger {
     padding-right: 20px;
     cursor: pointer;
@@ -50,7 +63,8 @@ p {
     top: 5rem;
     left: 48px;
     background-color: #F5D048;
-    display: none;
+    display: inline-flex;
+    flex-direction: column;
     margin: 0;
   }
   
