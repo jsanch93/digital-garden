@@ -68,9 +68,8 @@ p {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #F5D048;
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0;
   }
   
