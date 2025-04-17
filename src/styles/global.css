@@ -18,10 +18,16 @@ p {
 
 .center-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh; /* Full viewport height */
+  height: 75vh; /* Full viewport height */
   text-align: center; /* Center text horizontally */
+}
+
+.center-container img {
+  max-width: 450px; /* Adjust size as needed */
+  border-radius: 50%;
 }
 
 .myName {
@@ -29,7 +35,7 @@ p {
   font-size: 3.5rem;
 }
 
-img {
+.logo {
   max-width: 100px;
   max-height: 100px;
   height: auto;
