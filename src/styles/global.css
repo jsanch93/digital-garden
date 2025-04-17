@@ -67,10 +67,13 @@ p {
   .nav-links {
     width: 100%;
     top: 5rem;
-    left: 48px;
-    display: inline-flex;
+    left: 0;
+    display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     margin: 0;
+    padding: 0;
   }
   
   .nav-links a {
