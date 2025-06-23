@@ -29,7 +29,8 @@ body {
 .project-layout-container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 2rem 1rem 0 1rem;
+    background-color: #F5D048;
 }
 
 .project-layout {
@@ -41,21 +42,26 @@ body {
 .project-item {
     text-align: center;
     transition: transform 0.3s ease;
-    text-decoration: none !important;
+    text-decoration: none;
     max-width: 80%;
     margin: 0 auto;
 }
 
 .project-item img {
-    width: 100%;
-    height: auto;
+    width: 300px;         
+    height: 250px;          
+    object-fit: cover;      
     border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project-item:hover {
     transform: scale(1.05);
+    text-decoration: underline;
 }
 
-.project-item h4 {
+.project-item h2 {
     margin-top: 0.5rem;
 }

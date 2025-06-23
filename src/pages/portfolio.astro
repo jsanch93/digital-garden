@@ -8,14 +8,26 @@ const pageTitle = "My Portfolio";
 ---
 <BaseLayout pageTitle={pageTitle}>
 
+<header>
+    <a href="/">Home</a>
 
+    <div class="logo">
+      <img src="/assets/myLogo.png" alt="Logo">
+    </div>
+
+    <a href="/portfolio">Portfolio</a>
+  </header>
+  
 	<h2>What I've Done:</h2>
 	<div class="project-layout-container">
 		<div class="project-layout">
-			{allPosts.map((post) => <BlogPost url={post.url} ></BlogPost>  <a href={post.url} class="project-item">
+			{allPosts.map((post) => 
+			<a href={post.url} class="project-item">
                 <img src={post.frontmatter.teaser} alt={post.frontmatter.title} />
-                <h4>{post.frontmatter.title}</h4>
-            </a>)}
+                <h2>{post.frontmatter.title}</h2>
+            </a>
+			
+			)}
 		
 		</div>
 	</div>	
