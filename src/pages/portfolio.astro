@@ -9,9 +9,15 @@ const pageTitle = "My Portfolio";
 <BaseLayout pageTitle={pageTitle}>
 
 
-	<h2>My awesome blog subtitle</h2>
-		<ul>
-		{allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
-	  </ul>
+	<h2>What I've Done:</h2>
+	<div class="project-layout-container">
+		<div class="project-layout">
+			{allPosts.map((post) => <BlogPost url={post.url} ></BlogPost>  <a href={post.url} class="project-item">
+                <img src={post.frontmatter.teaser} alt={post.frontmatter.title} />
+                <h4>{post.frontmatter.title}</h4>
+            </a>)}
+		
+		</div>
+	</div>	
   
   </BaseLayout>

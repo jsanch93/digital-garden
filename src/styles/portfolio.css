@@ -3,43 +3,8 @@ body {
     background-color: #7DA688;
 }
 
-/* header {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      padding: 1rem;
-      border-bottom: 1px solid #ccc;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
 
-    header a {
-      text-decoration: none;
-      font-size: 2rem;
-      font-weight: 500;
-      color: #000;
-    }
-
-    header a:hover {
-      text-decoration: underline;
-    }
-
-    .logo {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
-    .logo img {
-      width: 75px;
-      height: 100px;
-    } */
-
-/* .container {
-    width: 80%;
-    margin: 2rem auto;
-} */
-
-.portfolio-item {
+/* .portfolio-item {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -59,5 +24,38 @@ body {
 
 .portfolio-item p {
     color: #666;
+} */
+
+.project-layout-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
+.project-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 2rem;
+}
+
+.project-item {
+    text-align: center;
+    transition: transform 0.3s ease;
+    text-decoration: none !important;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+.project-item h4 {
+    margin-top: 0.5rem;
+}
