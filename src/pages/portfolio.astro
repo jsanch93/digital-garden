@@ -7,6 +7,8 @@ const pageTitle = "My Portfolio";
 
 ---
 <BaseLayout pageTitle={pageTitle}>
+
+
 	<h2>My awesome blog subtitle</h2>
 		<ul>
 		{allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
