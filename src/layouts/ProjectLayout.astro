@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import "../styles/portfolio.css";
 import "../styles/carousel.css";
 const { frontmatter } = Astro.props;
 ---
@@ -38,8 +39,17 @@ const { frontmatter } = Astro.props;
     <button class="carousel-control-next" onclick="nextSlide()">&#10095;</button>
   </div>
   <slot />
-  <p><em>{frontmatter.description}</em></p>
- 
+
+{frontmatter.link && (
+  <a
+    href={frontmatter.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="figma-button"
+  >
+    Explore!
+  </a>
+)}
   
   <script src="../scripts/carousel.js"></script>
 </BaseLayout>

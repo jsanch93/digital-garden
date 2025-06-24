@@ -3,6 +3,22 @@ body {
     background-color: #7DA688;
 }
 
+  .figma-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #A67D92; /* Complement of #7DA688 */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .figma-button:hover {
+    background-color: #8C637A; /* Darker tone for hover */
+  }
+
 
 /* .portfolio-item {
     background-color: #fff;

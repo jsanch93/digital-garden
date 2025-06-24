@@ -2,8 +2,7 @@
 layout: ../../layouts/ProjectLayout.astro
 title: 'DigiKitty'
 pubDate: 2024-05-19
-description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-author: 'Joey Sanchirico'
+link: 'https://www.figma.com/proto/GFqSTxUHU1529N5XO7eR4N/Digi-Kitty?node-id=1-726&t=ZVhnDUdhjLHzKoKN-1'
 teaser: '../assets/DigiKitty/digiLanding.png'
 image: [
 '/DigiKitty/digi_landing.png',
@@ -13,4 +12,14 @@ image: [
 ]
 ---
 
-## DigiKitty
+## Summary
+DigiKitty is an app designed to provide a fun and engaging Apple Watch game for people who love taking care of cats! I wanted the app to have a reminiscenct feel of the Tamagotchi games I played but adding a modern twist to it. The app allows users to take care of their virtual cat by feeding, playing, and getting it checked up. The more you take care of your cat, the more it will grow to love you.
+
+## Tools Used
+- **Figama**: For designing the user interface and wireframes of the app.
+- **Adobe Firefly**: For generating images of the cats. 
+
+## Methodology
+- **Personas**: Created personas to understand the target audience and their needs.
+- **Competitive Analysis**: Analyzed different classic pet care games to identify features that would enhance the user experience.
+- **Wireframes**: Developed wireframes to visualize the app's layout and functionality.
