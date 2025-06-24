@@ -55,8 +55,6 @@ body {
     object-fit: cover;      
     border-radius: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .project-item:hover {
