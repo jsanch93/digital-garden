@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import BlogPost from '../components/BlogPost.astro';
 import "../styles/portfolio.css";
 const allPosts = await Astro.glob('../pages/posts/*.md');
 const pageTitle = "My Portfolio";
@@ -18,7 +17,7 @@ const pageTitle = "My Portfolio";
     <a href="/portfolio">Portfolio</a>
   </header>
   
-	<h2>What I've Done:</h2>
+
 	<div class="project-layout-container">
 		<div class="project-layout">
 			{allPosts.map((post) => 
