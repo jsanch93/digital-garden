@@ -2,7 +2,7 @@
 layout: ../../layouts/ProjectLayout.astro
 title: 'Moody Chef'
 pubDate: 2024-05-19
-description: 'Passion project to create a recipe app that helps users find recipes based on their mood.'
+link: 'https://www.figma.com/proto/Su7QjbfKV2DCU0slph5s9o/MOODYCHEF?node-id=0-1&t=kj6ziQDSdlkUJoGx-1'
 author: 'Joey Sanchirico'
 teaser: '../assets/MoodyChef/moodyChefTeaser.png'
 image: [
