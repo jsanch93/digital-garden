@@ -5,6 +5,7 @@ import "../styles/carousel.css";
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
+<script src="../scripts/carousel.js"></script>
 
   <header>
     <a href="/">Home</a>
@@ -16,7 +17,7 @@ const { frontmatter } = Astro.props;
     <a href="/portfolio">Portfolio</a>
   </header>
 
-  
+<!-- carousel -->
   <div class="carousel">
     <div class="carousel-inner">
       {(() => {
@@ -38,8 +39,11 @@ const { frontmatter } = Astro.props;
     <button class="carousel-control-prev" onclick="prevSlide()">&#10094;</button>
     <button class="carousel-control-next" onclick="nextSlide()">&#10095;</button>
   </div>
+
   <slot />
 
+ 
+<!-- Button -->
 {frontmatter.link && (
   <a
     href={frontmatter.link}
@@ -51,5 +55,4 @@ const { frontmatter } = Astro.props;
   </a>
 )}
   
-  <script src="../scripts/carousel.js"></script>
 </BaseLayout>
