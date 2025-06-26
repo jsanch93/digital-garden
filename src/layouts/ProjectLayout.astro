@@ -3,6 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import "../styles/portfolio.css";
 import "../styles/carousel.css";
 const { frontmatter } = Astro.props;
+const images = frontmatter.image
 ---
 <BaseLayout pageTitle={frontmatter.title}>
 <script src="../scripts/carousel.js"></script>
@@ -23,26 +24,18 @@ const { frontmatter } = Astro.props;
 
 <!-- carousel -->
   <div class="carousel">
-    <div class="carousel-inner">
-      {(() => {
-        const elements = [];
-        for (let index = 0; index < frontmatter.image.length; index++) {
-          const image = frontmatter.image[index];
-          elements.push(
-            <picture>
-              <div class={`carousel-item ${index === 0 ? 'active' : ''}`}>
-                <img src={`/assets/${image}`} alt={`Slide ${index + 1}`} />
-              </div>
-            </picture>
-          );
-        }
-        return elements;
-      })()}
-      
+  <div class="carousel-viewport">
+    <div class="carousel-track">
+      {images.map((image, index) => (
+        <div class="carousel-item" data-index={index}>
+          <img src={`/assets/${image}`} alt={`Slide ${index + 1}`} />
+        </div>
+      ))}
     </div>
-    <button class="carousel-control-prev" onclick="prevSlide()">&#10094;</button>
-    <button class="carousel-control-next" onclick="nextSlide()">&#10095;</button>
   </div>
+  <button class="carousel-control prev">&#10094;</button>
+  <button class="carousel-control next">&#10095;</button>
+</div>
 
   <slot />
 

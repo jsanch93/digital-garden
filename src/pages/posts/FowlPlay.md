@@ -6,8 +6,8 @@ description: 'Fowl Play is a puzzle game where players solve a series of challen
 author: 'Joey Sanchirico'
 teaser: '../assets/FowlPlay/FowlPlayTeaser.jpg'
 image: [
-'/FowlPlay/CharacterCards.jpg',
 '/FowlPlay/FowlPlayHero.jpg',
+'/FowlPlay/CharacterCards.jpg',
 '/FowlPlay/GobbleFeed.jpg',
 '/FowlPlay/PlayerGuide.jpg',
 '/FowlPlay/Puzzles.jpg'

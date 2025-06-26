@@ -1,26 +1,29 @@
-document.addEventListener('DOMContentLoaded', () => {
-  // CAROUSEL
-  let currentSlide = 0;
-  const slides = document.querySelectorAll('.carousel-item');
+let currentIndex = 0;
+  const items = document.querySelectorAll('.carousel-item');
+  const track = document.querySelector('.carousel-track');
 
-  function showSlide(index) {
-      slides.forEach((slide, i) => {
-          slide.classList.toggle('active', i === index);
-      });
+  function updateCarousel() {
+    const viewportWidth = document.querySelector('.carousel-viewport').offsetWidth;
+    const itemWidth = items[0].offsetWidth + 16; // 16 = assumed gap
+    const offset = itemWidth * currentIndex;
+    const centerOffset = (viewportWidth / 2) - (itemWidth / 2);
+
+    track.style.transform = `translateX(${-offset + centerOffset}px)`;
+
+    items.forEach((item, index) => {
+      item.classList.toggle('active', index === currentIndex);
+    });
   }
 
-  function nextSlide() {
-      currentSlide = (currentSlide + 1) % slides.length;
-      showSlide(currentSlide);
-  }
+  document.querySelector('.carousel-control.next').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % items.length;
+    updateCarousel();
+  });
 
-  function prevSlide() {
-      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-      showSlide(currentSlide);
-  }
+  document.querySelector('.carousel-control.prev').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + items.length) % items.length;
+    updateCarousel();
+  });
 
-  document.querySelector('.carousel-control-next').addEventListener('click', nextSlide);
-  document.querySelector('.carousel-control-prev').addEventListener('click', prevSlide);
-
-  showSlide(currentSlide);
-});
+  window.addEventListener('load', updateCarousel);
+  window.addEventListener('resize', updateCarousel);
