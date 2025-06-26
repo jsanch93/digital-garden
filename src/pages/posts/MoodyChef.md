@@ -6,13 +6,12 @@ link: 'https://www.figma.com/proto/Su7QjbfKV2DCU0slph5s9o/MOODYCHEF?node-id=0-1&
 author: 'Joey Sanchirico'
 teaser: '../assets/MoodyChef/moodyChefTeaser.png'
 image: [
-'/MoodyChef/Chef_mood.png',
+'/MoodyChef/moodyLanding.png',
+'/MoodyChef/moodyFlow.png',
 '/MoodyChef/Chef_pick.png',
+'/MoodyChef/moodyFeeling.png',
 '/MoodyChef/Chef_reciepes.png',
-'/MoodyChef/ChefDesign.png',
-'/MoodyChef/ChefFavorite.png',
-'/MoodyChef/ChefFront.png',
-'/MoodyChef/ChefSelection.png'
+'/MoodyChef/moodyChefTeaser.png'
 ]
 ---
 
