@@ -5,10 +5,13 @@ pubDate: 2024-05-19
 link: 'https://www.figma.com/proto/GFqSTxUHU1529N5XO7eR4N/Digi-Kitty?node-id=1-726&t=ZVhnDUdhjLHzKoKN-1'
 teaser: '../assets/DigiKitty/digiLanding.png'
 image: [
+'/DigiKitty/digiLanding.png',
+'/DigiKitty/digiAnalysis.png',
+'/DigiKitty/digiPersona.png',
 '/DigiKitty/digi_landing.png',
-'/DigiKitty/digi_pet.png',
+'/DigiKitty/digiCreate.png',
 '/DigiKitty/digi_selection.png',
-'/DigiKitty/digi_skully.png'
+'/DigiKitty/digiSkully.png'
 ]
 ---
 
