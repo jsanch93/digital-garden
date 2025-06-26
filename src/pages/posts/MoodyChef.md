@@ -7,6 +7,7 @@ author: 'Joey Sanchirico'
 teaser: '../assets/MoodyChef/moodyChefTeaser.png'
 image: [
 '/MoodyChef/moodyLanding.png',
+'/MoodyChef/discovery.png',
 '/MoodyChef/moodyFlow.png',
 '/MoodyChef/Chef_pick.png',
 '/MoodyChef/moodyFeeling.png',
