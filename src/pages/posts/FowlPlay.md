@@ -15,7 +15,8 @@ image: [
 ---
 
 ### Summary
-Fowl Play: The Thanksgiving Escape Game is a unique puzzle game that combines physical and digital elements to create an engaging escape room experience. Players must solve a series of challenges to uncover the mystery of who threw away the turkey during a chaotic Thanksgiving dinner. The game features a humorous storyline, interactive puzzles, and character cards that enhance the narrative. I designed the "Gobble Feed," a digital social media feed that adds a modern twist to the traditional puzzle-solving experience. I also helped develop the Empathy Maps for the project.
+<div class="summary">Fowl Play: The Thanksgiving Escape Game is a unique puzzle game that combines physical and digital elements to create an engaging escape room experience. Players must solve a series of challenges to uncover the mystery of who threw away the turkey during a chaotic Thanksgiving dinner. The game features a humorous storyline, interactive puzzles, and character cards that enhance the narrative. I designed the "Gobble Feed," a digital social media feed that adds a modern twist to the traditional puzzle-solving experience. I also helped develop the Empathy Maps for the project.
+</div>
 
 ### Tools Used
 - **Figma**: For designing the user interface and wireframes of the app.

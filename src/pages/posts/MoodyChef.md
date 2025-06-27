@@ -17,7 +17,8 @@ image: [
 ---
 
 ### Summary
-Moody Chef is an innovative cooking app designed to help users discover new recipes based on their mood and preferences. The app features a sleek and modern interface, making it easy for users to navigate and find inspiration for their next meal. I was responsible for designing the user experience, creating wireframes, and conducting user testing to ensure the app meets the needs of its target audience.
+<div class="summary">Moody Chef is an innovative cooking app designed to help users discover new recipes based on their mood and preferences. The app features a sleek and modern interface, making it easy for users to navigate and find inspiration for their next meal. I was responsible for designing the user experience, creating wireframes, and conducting user testing to ensure the app meets the needs of its target audience.
+</div>
 
 ### Tools Used
 - **Figma**: For designing the user interface and wireframes of the app.
