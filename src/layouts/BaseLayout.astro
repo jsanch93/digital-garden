@@ -12,14 +12,26 @@ const { pageTitle } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
-  <body>
   
+  
+  <body>
+<main>
 
-    <slot />
+			<div class="content">
+        <slot />
+			</div>
+
+			<Footer />
+</main>
+
+
     <script>
       import "../scripts/menu.js";
       import "../scripts/carousel.js";
     </script>
+
+
   </body>
-  <Footer />
+
+
   </html>

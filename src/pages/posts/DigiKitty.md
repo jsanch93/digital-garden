@@ -26,3 +26,9 @@ DigiKitty is an app designed to provide a fun and engaging Apple Watch game for 
 - **Personas**: Created personas to understand the target audience and their needs.
 - **Competitive Analysis**: Analyzed different classic pet care games to identify features that would enhance the user experience.
 - **Wireframes**: Developed wireframes to visualize the app's layout and functionality.
+
+## Features
+- **Pet Care**: Users can feed, play with, and check up on their virtual cat.
+- **Growth Mechanism**: The more the user interacts with their cat, the more it grows to love them.
+- **Customization**: Users can customize their cat's appearance and name.
+- **Notifications**: The app sends reminders to users to take care of their cat, ensuring they stay engaged.

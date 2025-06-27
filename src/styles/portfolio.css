@@ -11,11 +11,13 @@ body {
     font-family: 'Telma-Bold';
 }
 
-  .figma-button {
+
+
+.figma-button {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.6rem 1.2rem;
-    background-color: #A67D92; /* Complement of #7DA688 */
+    background-color: #A67D92; 
     color: #ffffff;
     text-decoration: none;
     border-radius: 8px;
