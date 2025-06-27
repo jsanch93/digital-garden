@@ -23,7 +23,7 @@ const pageTitle = "My Portfolio";
 			{allPosts.map((post) => 
 			<a href={post.url} class="project-item">
                 <img src={post.frontmatter.teaser} alt={post.frontmatter.title} />
-                <h2>{post.frontmatter.title}</h2>
+                <h2 class="project-title">{post.frontmatter.title}</h2>
             </a>
 			
 			)}

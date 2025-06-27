@@ -1,5 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: #7DA688;
 }
 
@@ -10,8 +12,6 @@ body {
     margin-top: 2rem;
     font-family: 'Telma-Bold';
 }
-
-
 
 .figma-button {
     display: inline-block;
@@ -25,10 +25,24 @@ body {
     transition: background-color 0.3s;
   }
 
-  .figma-button:hover {
-    background-color: #8C637A; /* Darker tone for hover */
+.figma-button:hover {
+    background-color: #8C637A;
   }
 
+.summary {
+    font-size: 1rem;
+}
+  
+.container {
+    padding: 0rem 15rem;
+}
+
+.project-title {
+    font-family: 'Telma-Bold';
+    font-size: 1.5rem;
+    color: #0e1e7c;
+    margin-top: 0.5rem;
+}
 
 .project-layout-container {
     max-width: 1000px;

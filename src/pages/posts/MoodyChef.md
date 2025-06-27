@@ -16,21 +16,21 @@ image: [
 ]
 ---
 
-## Summary
+### Summary
 Moody Chef is an innovative cooking app designed to help users discover new recipes based on their mood and preferences. The app features a sleek and modern interface, making it easy for users to navigate and find inspiration for their next meal. I was responsible for designing the user experience, creating wireframes, and conducting user testing to ensure the app meets the needs of its target audience.
 
-## Tools Used
+### Tools Used
 - **Figma**: For designing the user interface and wireframes of the app.
 - **Sketches**: For initial design concepts and brainstorming.
 
-## Methodology
+### Methodology
 - **Design Brief**: Developed a design brief to outline the app's goals, target audience, and key features.
 - **SWOT**: Conducted a SWOT analysis to identify the app's strengths, weaknesses, opportunities, and threats.
 - **Comparative Analysis**: Analyzed existing cooking apps to identify best practices and areas for improvement.
 - **User Flow**: Created a user flow diagram to map out the app's navigation and user interactions.
 - **Wireframes**: Created wireframes to visualize the app's layout and functionality.
 
-## Features
+### Features
 - **Mood-Based Recipe Discovery**: Users can select their mood to receive personalized recipe suggestions.
 - **Recipe Categories**: Recipes are organized into categories for easy browsing.
 - **Favorites**: Users can save their favorite recipes for quick access.
