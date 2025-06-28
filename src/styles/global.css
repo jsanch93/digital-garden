@@ -71,14 +71,14 @@ h3 {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
   position: relative;
   max-width: 700px;
   color: #000000;
 }
 
-/* BODY STUFF */
+
 .main-content {
     flex: 1;
     display: flex;
