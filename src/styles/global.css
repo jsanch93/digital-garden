@@ -183,6 +183,12 @@ h3 {
     gap: 1rem;
   }
 
+  .center-container img {
+    max-width: 90vw;
+    width: 100%;
+    height: auto;
+  }
+
   .logo img {
     width: 50px;
     height: 65px;
