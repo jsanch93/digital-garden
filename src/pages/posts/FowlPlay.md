@@ -1,9 +1,6 @@
 --- 
 layout: ../../layouts/ProjectLayout.astro
 title: 'Fowl Play: The Thanksgiving Escape Game'
-pubDate: 2024-05-19
-description: 'Fowl Play is a puzzle game where players solve a series of challenges to discover who threw away the turkey.'
-author: 'Joey Sanchirico'
 teaser: '../assets/FowlPlay/FowlPlayTeaser.jpg'
 image: [
 '/FowlPlay/FowlPlayHero.jpg',
@@ -32,3 +29,7 @@ image: [
 - **Custom Puzzles**: Developed engaging challenges such as a word search, crossword, word scramble, and pictogram to advance the storyline.
 - **Character Cards**: Designed detailed character profiles that added depth to the narrative and assisted players in solving the mystery.
 - **Gobble Feed**: Created a digital, interactive social media feed that introduced modern elements to traditional puzzle-solving.
+
+### What I Learned
+<div class="summary">This project taught me the importance of blending physical and digital elements to create an immersive experience. I learned how to design engaging puzzles that are both challenging and fun, and how to effectively use Figma for creating interactive prototypes. Additionally, I gained insights into user testing and how to incorporate feedback to enhance the overall gameplay experience. The project also highlighted the significance of storytelling in game design, as it kept players engaged and motivated to solve the puzzles.
+</div>

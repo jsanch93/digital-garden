@@ -1,9 +1,7 @@
 --- 
 layout: ../../layouts/ProjectLayout.astro
 title: 'Moody Chef'
-pubDate: 2024-05-19
 link: 'https://www.figma.com/proto/Su7QjbfKV2DCU0slph5s9o/MOODYCHEF?node-id=0-1&t=kj6ziQDSdlkUJoGx-1'
-author: 'Joey Sanchirico'
 teaser: '../assets/MoodyChef/moodyChefTeaser.png'
 image: [
 '/MoodyChef/moodyLanding.png',
@@ -38,3 +36,6 @@ image: [
 - **Recipe Details**: Each recipe includes detailed instructions, ingredients, and cooking tips.
 - **Search Functionality**: Users can search for recipes by ingredients, cuisine, or dietary preferences.
 
+### What I Learned
+<div class="summary">This project taught me the importance of user-centered design and how to create an intuitive user experience. I learned how to effectively use Figma for designing interactive prototypes and how to incorporate user feedback into the design process. Additionally, I gained insights into the cooking app market and how to create a product that resonates with users. The project also highlighted the significance of mood-based personalization in enhancing user engagement and satisfaction.
+</div>

@@ -5,6 +5,13 @@ body {
     background-color: #7DA688;
 }
 
+ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
 .page-heading {
     font-size: 3.5rem;
     text-align: center;
@@ -39,6 +46,7 @@ body {
 
 .summary {
     font-size: 1rem;
+    margin-bottom: 1rem;
 }
   
 .container {

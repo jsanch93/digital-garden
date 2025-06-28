@@ -1,7 +1,6 @@
 --- 
 layout: ../../layouts/ProjectLayout.astro
 title: 'DigiKitty'
-pubDate: 2024-05-19
 link: 'https://www.figma.com/proto/GFqSTxUHU1529N5XO7eR4N/Digi-Kitty?node-id=1-726&t=ZVhnDUdhjLHzKoKN-1'
 teaser: '../assets/DigiKitty/digiLanding.png'
 image: [
@@ -33,3 +32,7 @@ image: [
 - **Growth Mechanism**: The more the user interacts with their cat, the more it grows to love them.
 - **Customization**: Users can customize their cat's appearance and name.
 - **Notifications**: The app sends reminders to users to take care of their cat, ensuring they stay engaged.
+
+### What I Learned
+<div class="summary">This project taught me the importance of user-centered design and how to create engaging experiences through gamification. I learned how to effectively use Figma for designing interactive prototypes and how to incorporate user feedback into the design process. Additionally, I gained insights into the pet care industry and how to create a product that resonates with users.
+</div>
