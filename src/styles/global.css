@@ -142,7 +142,7 @@ h3 {
   }
 
   
-  @media screen and (min-width: 636px) {
+  /* @media screen and (min-width: 636px) {
     .nav-links {
       margin-left: 5em;
       display: block;
@@ -159,4 +159,38 @@ h3 {
     .hamburger {
       display: none;
     }
+  } */
+
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  main {
+    max-width: 100%;
+    padding: 1rem 0.5rem;
   }
+  .center-container {
+    max-width: 98%;
+    padding: 1rem 0.5rem 0 0.5rem;
+  }
+
+  .myName {
+    font-size: 1.5rem;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+    gap: 1rem;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 65px;
+  }
+
+  p, h3, .intro-text {
+    font-size: 0.95rem;
+    max-width: 98vw;
+    padding: 0 0.5rem;
+  }
+}
