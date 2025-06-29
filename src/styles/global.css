@@ -144,6 +144,11 @@ h3 {
     padding: 0.5rem;
   }
 
+  footer svg {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
   .center-container img {
     max-width: 90vw;
     width: 100%;
